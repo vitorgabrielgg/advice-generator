@@ -16,7 +16,7 @@ const AdviceCard = () => {
       </p>
       <picture className="sm:pt-4">
         <source media="(min-width: 440px)" srcSet={DividerDesktop} />
-        <img src={DividerMobile} alt="" className="" />
+        <img src={DividerMobile} alt="Divider" />
       </picture>
       <AdviceButton />
     </div>
