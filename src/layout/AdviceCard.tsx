@@ -1,5 +1,6 @@
 import DividerMobile from "/public/images/pattern-divider-mobile.svg";
 import DividerDesktop from "/public/images/pattern-divider-desktop.svg";
+import AdviceButton from "../component/AdviceButton";
 
 const AdviceCard = () => {
   return (
@@ -14,6 +15,7 @@ const AdviceCard = () => {
         <source media="(min-width: 440px)" srcSet={DividerDesktop} />
         <img src={DividerMobile} alt="" className="" />
       </picture>
+      <AdviceButton />
     </div>
   );
 };
